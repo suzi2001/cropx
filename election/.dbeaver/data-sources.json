@@ -1,0 +1,34 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-16d890eea56-4dc28a8919cc7669": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL - election_db1",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "rds-nv-sandbox.c6tbmghgpctl.us-east-1.rds.amazonaws.com",
+				"port": "5432",
+				"database": "election_db1",
+				"url": "jdbc:postgresql://rds-nv-sandbox.c6tbmghgpctl.us-east-1.rds.amazonaws.com:5432/election_db1",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false"
+				},
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
